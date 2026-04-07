@@ -1,0 +1,55 @@
+[
+  {
+    "id": "a9fe0039",
+    "title": "Learn machine learning",
+    "description": "Learn machine learning",
+    "user_id": "test_user_123",
+    "created_at": "2026-04-05 19:33:43",
+    "deadline": "2026-04-26",
+    "status": "pending",
+    "progress": 0.0,
+    "skill_level": "",
+    "why_important": "To build real Python projects and applications",
+    "timeline": "3 weeks",
+    "hours_per_week": "",
+    "success_metric": "To build real Python projects and applications",
+    "total_weeks": 3,
+    "videos_per_week": 2,
+    "articles_per_week": 2,
+    "goal_type": "practical",
+    "generated_plan": "",
+    "weekly_breakdown": [],
+    "plan": {
+      "error": "Failed to generate plan",
+      "weekly_breakdown": []
+    },
+    "plan_generated_at": "2026-04-05T19:33:44.968073"
+  },
+  {
+    "id": "ddcc2fee",
+    "title": "Learn machine learning",
+    "description": "Learn machine learning",
+    "user_id": "test_user_123",
+    "created_at": "2026-04-05 19:36:46",
+    "deadline": "2026-04-26",
+    "status": "pending",
+    "progress": 0.0,
+    "skill_level": "",
+    "why_important": "To build real Python projects and applications",
+    "timeline": "3 weeks",
+    "hours_per_week": "",
+    "success_metric": "To build real Python projects and applications",
+    "total_weeks": 3,
+    "videos_per_week": 2,
+    "articles_per_week": 2,
+    "goal_type": "practical",
+    "generated_plan": "",
+    "weekly_breakdown": [],
+    "plan": {
+      "goal": "",
+      "total_weeks": 0,
+      "weekly_breakdown": []
+    },
+    "plan_generated_at": "2026-04-05T19:36:48.384450"
+  }
+]

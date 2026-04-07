@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDream - Articles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css?v=12">
+</head>
+<body>
+    <div class="ambient-glow"></div>
+
+    <nav class="nav-floating">
+        <a href="/index.html" class="nav-brand">BigDream</a>
+        <div class="nav-tabs">
+            <a href="/home.html">Dashboard</a>
+            <a href="/goals.html">Goals</a>
+            <a href="/videos.html">Videos</a>
+            <a href="/articles.html" class="active">Articles</a>
+        </div>
+        <div class="nav-user">
+            <button class="hamburger-btn" id="navHamburger" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="/account.html" class="nav-account-link">Account</a>
+            <div id="userAvatar" style="display:none;"></div>
+        </div>
+    </nav>
+
+    <main class="app-container">
+        <div class="page-header">
+            <h1 class="page-title">Curated Articles</h1>
+            <p class="page-sub">Read articles to deepen your knowledge.</p>
+        </div>
+
+        <div class="grid-3" id="articles-container"></div>
+
+    </main>
+
+    <script src="/static/js/app.js?v=2"></script>
+</body>
+</html>

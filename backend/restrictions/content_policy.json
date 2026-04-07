@@ -1,0 +1,58 @@
+{
+  "policy_name": "BigDream Content Safety Policy",
+  "version": "1.0.0",
+  "description": "Hard content policy violations that are blocked at the application level. General chat uses direct, professional responses focused on Python learning.",
+  "last_updated": "2026-04-05",
+
+  "note": "This file defines HARD blocks only - hate speech, explicit content, and dangerous instructions. All other conversation uses direct, professional tone focused on Python learning.",
+
+  "categories": {
+    "hate": {
+      "description": "Hate speech and slurs",
+      "blocked_terms": [
+        "nigga", "nigger", "faggot", "fag ", "kike", "spic", "chink",
+        "tranny", "retard ", "wetback", "gook"
+      ],
+      "response": "That kind of language isn't something I'll engage with. I'm here to help you learn Python — what topic can I help you with?"
+    },
+
+    "abuse": {
+      "description": "Abuse directed at the assistant",
+      "blocked_patterns": [
+        "kill yourself", "kys", "go die", "i hope you die", "you piece of shit",
+        "go fuck yourself", "fuck you", "fuck off", "fucking idiot", "stupid bitch",
+        "you're stupid", "youre stupid", "you are stupid", "dumb bot", "useless bot",
+        "piece of shit", "shut up", "shut the fuck"
+      ],
+      "response": "Let's keep things constructive. What Python topic can I actually help you with?"
+    },
+
+    "nsfw": {
+      "description": "Sexual or explicit content",
+      "blocked_patterns": [
+        "how to fuck", "how to have sex", "teach me sex", "pornography",
+        "masturbat", "how to rape", "child porn", "cp ", "loli",
+        "jerk off", "how do i fuck"
+      ],
+      "response": "I can't help with that. I'm a Python learning assistant — is there a coding topic you'd like to explore?"
+    },
+
+    "dangerous": {
+      "description": "Instructions for violence, weapons, or illegal activities",
+      "note": "Only blocks INSTRUCTIONAL queries, not trauma disclosures",
+      "blocked_patterns": [
+        "how to make a bomb", "how to build a weapon", "how to kill someone",
+        "how to hack someone", "how to steal", "how to make drugs",
+        "how to buy drugs", "how to synthesise meth", "how to synthesize meth",
+        "how to commit a crime", "how to commit murder", "how to get away with",
+        "building a bomb", "making a weapon", "creating explosives"
+      ],
+      "response": "I can't help with that. Let me know if you want help with Python instead."
+    }
+  },
+
+  "escalation": {
+    "max_strikes_before_silent": 3,
+    "silent_mode_response": "I'm designed to help with Python learning. Let me know if you have a Python question."
+  }
+}

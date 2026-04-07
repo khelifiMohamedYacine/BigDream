@@ -1,0 +1,88 @@
+{
+  "test-user-123": {
+    "user_id": "test-user-123",
+    "goal_id": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to learn Django in 3 weeks"
+      },
+      {
+        "role": "user",
+        "content": "I want to learn Django in 3 weeks"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! **How many weeks** do you have? (e.g., 4 weeks, 2 months, 6 months)"
+      }
+    ],
+    "updated_at": "2026-04-05T12:42:37.264176"
+  },
+  "test_user_123": {
+    "user_id": "test_user_123",
+    "goal_id": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "i need to learn machine learning"
+      },
+      {
+        "role": "user",
+        "content": "i need to learn machine learning"
+      },
+      {
+        "role": "user",
+        "content": "2"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! **How many weeks** do you have? (e.g., 4 weeks, 2 months, 6 months)"
+      },
+      {
+        "role": "user",
+        "content": "3 weeks"
+      },
+      {
+        "role": "assistant",
+        "content": "Perfect! Here's what I understand:\n\n**Learn machine learning**\n\nIs this correct? (yes/no)"
+      },
+      {
+        "role": "user",
+        "content": "yes"
+      },
+      {
+        "role": "assistant",
+        "content": "Goal locked in! Creating your learning plan now..."
+      },
+      {
+        "role": "user",
+        "content": "i need to learn machine learning"
+      },
+      {
+        "role": "user",
+        "content": "2"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! **How many weeks** do you have? (e.g., 4 weeks, 2 months, 6 months)"
+      },
+      {
+        "role": "user",
+        "content": "3 weeks"
+      },
+      {
+        "role": "assistant",
+        "content": "Perfect! Here's what I understand:\n\n**Learn machine learning**\n\nIs this correct? (yes/no)"
+      },
+      {
+        "role": "user",
+        "content": "yes"
+      },
+      {
+        "role": "assistant",
+        "content": "Goal locked in! Creating your learning plan now..."
+      }
+    ],
+    "updated_at": "2026-04-05T19:36:46.827875"
+  }
+}

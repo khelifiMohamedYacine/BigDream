@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDream - Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css?v=12">
+</head>
+<body>
+    <div class="ambient-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-floating">
+        <a href="/index.html" class="nav-brand">BigDream</a>
+        <div class="nav-tabs">
+            <a href="/home.html">Dashboard</a>
+            <a href="/goals.html">Goals</a>
+            <a href="/videos.html">Videos</a>
+            <a href="/articles.html">Articles</a>
+        </div>
+        <div class="nav-user">
+            <button class="hamburger-btn" id="navHamburger" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="/account.html" class="nav-account-link">Account</a>
+            <div id="userAvatar" style="display:none;"></div>
+        </div>
+    </nav>
+
+    <main class="app-container">
+
+        <!-- Page header -->
+        <div class="page-header">
+            <h1 class="page-title">Account</h1>
+            <p class="page-sub">Manage your profile and preferences</p>
+        </div>
+
+        <!-- Profile card -->
+        <div class="profile-card" id="profile-photo-trigger" style="cursor:default;">
+            <!-- Photo column -->
+            <div class="profile-photo-col">
+                <div class="profile-photo-wrap" id="profile-photo-trigger">
+                    <img id="profile-picture-display"
+                         src="/static/uploads/profiles/default-avatar.png"
+                         alt="Profile Picture"
+                         class="profile-photo"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22110%22 height=%22140%22%3E%3Crect width=%22110%22 height=%22140%22 rx=%224%22 fill=%22%230a0a12%22/%3E%3Ctext fill=%2200ffff%22 font-size=%2224%22 font-family=%22Orbitron%22 x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.35em%22%3EBD%3C/text%3E%3C/svg%3E';">
+                    <div class="profile-photo-overlay">
+                        <i class="fas fa-camera"></i>
+                        <span>Change Photo</span>
+                    </div>
+                </div>
+                <input type="file" id="avatar-upload" accept="image/*" style="display:none;">
+                <div class="profile-display-handle" id="avatar-display-handle">@handle</div>
+            </div>
+
+            <!-- Fields column -->
+            <div class="profile-fields-col">
+                <div class="profile-card-heading">
+                    <i class="fas fa-shield-alt"></i> Member Profile
+                </div>
+                <div class="profile-fields">
+                    <div class="profile-field">
+                        <div class="profile-field-label">Full Name</div>
+                        <div class="profile-field-value" id="passport-name">—</div>
+                    </div>
+                    <div class="profile-field">
+                        <div class="profile-field-label">Email Address</div>
+                        <div class="profile-field-value" id="passport-email">—</div>
+                    </div>
+                    <div class="profile-field">
+                        <div class="profile-field-label">Handle</div>
+                        <div class="profile-field-value" id="passport-handle">—</div>
+                    </div>
+                    <div class="profile-field">
+                        <div class="profile-field-label">Bio</div>
+                        <div class="profile-field-value" id="passport-bio">—</div>
+                    </div>
+                    <div class="profile-field">
+                        <div class="profile-field-label">User ID</div>
+                        <div class="profile-field-value mono" id="passport-uid">—</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forms grid -->
+        <div class="account-grid">
+
+            <!-- Edit Profile -->
+            <div>
+                <div class="account-card">
+                    <div class="account-card-title">
+                        <i class="fas fa-user-circle"></i> Edit Profile
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-name">Name</label>
+                        <input type="text" id="user-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-email">Email</label>
+                        <input type="email" id="user-email" placeholder="your.email@example.com" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-handle">Handle</label>
+                        <input type="text" id="user-handle" placeholder="your-handle">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-bio">Bio</label>
+                        <textarea id="user-bio" placeholder="Tell us about yourself..." style="min-height:80px;"></textarea>
+                    </div>
+                    <div style="display:none;">
+                        <input type="text" id="user-id" readonly>
+                    </div>
+
+                    <div class="mt-3">
+                        <button class="btn btn-accent" id="save-profile">
+                            <i class="fas fa-save"></i> Save Profile
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Preferences + Danger Zone -->
+            <div>
+                <div class="account-card">
+                    <div class="account-card-title">
+                        <i class="fas fa-cog"></i> Preferences
+                    </div>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="email-notifications" checked>
+                        <span>Email notifications for goal progress</span>
+                    </label>
+                    <label class="checkbox-label mt-2">
+                        <input type="checkbox" id="weekly-summary" checked>
+                        <span>Weekly learning summary</span>
+                    </label>
+                    <label class="checkbox-label mt-2">
+                        <input type="checkbox" id="content-updates" checked>
+                        <span>New content updates</span>
+                    </label>
+
+                    <div class="mt-3">
+                        <button class="btn" id="save-preferences">
+                            <i class="fas fa-check"></i> Save Preferences
+                        </button>
+                    </div>
+                </div>
+
+                <div class="account-card" style="margin-top:1.25rem; background:rgba(255,0,255,0.03); border-color:rgba(255,0,255,0.12);">
+                    <div class="account-card-title danger">
+                        <i class="fas fa-exclamation-triangle"></i> Danger Zone
+                    </div>
+                    <p style="font-size:0.83rem; color:var(--text-secondary); margin-bottom:1rem;">
+                        Export your data or permanently delete your account.
+                    </p>
+                    <div class="btn-row">
+                        <button class="btn" id="export-data">
+                            <i class="fas fa-download"></i> Export Data
+                        </button>
+                        <button class="btn btn-pink" id="delete-account">
+                            <i class="fas fa-trash"></i> Delete Account
+                        </button>
+                        <button class="btn" id="logout-btn">
+                            <i class="fas fa-sign-out-alt"></i> Logout
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="/static/js/app.js?v=2"></script>
+    <script src="/static/js/account.js"></script>
+</body>
+</html>

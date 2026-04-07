@@ -1,0 +1,1113 @@
+[
+  {
+    "timestamp": "2026-02-17T16:04:54.426760",
+    "user_id": "916dd513-f08c-43ad-aa3a-640e95a4636b",
+    "action": "user_created",
+    "details": {
+      "email": "khelifi@gmail.com",
+      "role": "user"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T15:48:16.200954",
+    "user_id": "6dd573df-54f6-4922-a581-260cc057156b",
+    "action": "user_created",
+    "details": {
+      "email": "khelifiyacine36@gmail.com",
+      "role": "user"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T15:48:55.040623",
+    "user_id": "6dd573df-54f6-4922-a581-260cc057156b",
+    "action": "profile_updated",
+    "details": {
+      "fields": [
+        "name",
+        "bio",
+        "handle"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-31T15:49:18.997388",
+    "user_id": "6dd573df-54f6-4922-a581-260cc057156b",
+    "action": "profile_updated",
+    "details": {
+      "fields": [
+        "avatar_url"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-04-01T01:19:06.876673",
+    "user_id": "6dd573df-54f6-4922-a581-260cc057156b",
+    "action": "user_deleted",
+    "details": {
+      "email": "khelifiyacine36@gmail.com"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T01:19:54.456812",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "user_created",
+    "details": {
+      "email": "khelifiyacine36@gmail.com",
+      "role": "user"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T01:20:14.096635",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "password_reset_requested",
+    "details": {
+      "email": "khelifiyacine36@gmail.com"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T13:27:54.944244",
+    "user_id": "916dd513-f08c-43ad-aa3a-640e95a4636b",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "6befcf1f",
+      "title": "Learn python in 3 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T13:28:30.720026",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_completed",
+    "details": {
+      "goal_id": "b8f50b65"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T13:29:06.432027",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "6fc5e293",
+      "title": "Learn python in 2 Months"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T13:29:08.755087",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "b8f50b65",
+      "title": "Learn flask in 2 Months"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T14:11:56.967135",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "6e4c8a7b",
+      "title": "Learn flask in 2 Months"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T14:53:03.558607",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "d0cb880a",
+      "title": "To learn python in 3 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T15:37:06.471959",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "026c0535",
+      "title": "Learn python in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T15:44:34.334418",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "1f7aeab2",
+      "title": "Learn flask in 1 Month"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T16:15:30.781629",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "6f4122ed",
+      "title": "Learning loops in 9 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T16:44:15.664817",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "ab3779f1",
+      "title": "Learn flask in 7 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T16:48:14.559931",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "65bfe41b",
+      "url": "https://www.youtube.com/watch?v=Z2MCtZfEqpY"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T16:48:16.909129",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "65bfe41b",
+      "url": "https://www.youtube.com/watch?v=mqhxxeeTbu0"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T16:54:49.354956",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "65bfe41b",
+      "title": "Learn flask in 5 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:07:13.529500",
+    "user_id": "guest_g5zhujind",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "50ee2bb7",
+      "title": "Learn python in 8 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:10.547069",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://reddit.com/r/learnpython/comments/1ritmiw/does_it_still_make_sense_to_learn_python_or_any"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:12.188682",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://reddit.com/r/learnpython/comments/1nc4k53/how_do_i_actually_get_good_at_python"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:13.663279",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://reddit.com/r/learnpython/comments/1jt4ash/mastering_python_from_basics_by_solving_problems"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:15.621463",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://news.ycombinator.com/item"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:17.729971",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://reddit.com/r/learnpython/comments/1s8lpb8/why_does_python_feel_easy_to_learn_but_hard_to"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:20.024678",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://reddit.com/r/learnpython/comments/1lhkicg/what_programming_practices_dont_work_in_python"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:22.049686",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://reddit.com/r/learnpython/comments/1rqoj2z/zero_programming_knowledge_but_i_want_to_learn"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:24.870054",
+    "user_id": "guest_g5zhujind",
+    "action": "article_read",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://reddit.com/r/learnpython/comments/1jzhbwp/how_to_learn_python_quickly"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:28.973650",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:29.881706",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=W8KRzm-HUcc"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:30.885216",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=6iF8Xb7Z3wQ"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:33.822938",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=2aY3gRZnG-Y"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:35.047977",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=9Os0o3wzS_I"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:36.122488",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=RGOj5yH8evw"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:37.693064",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=daefaLgNkw0"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T17:09:39.717902",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "c18e171e",
+      "url": "https://www.youtube.com/watch?v=WCoe1Pzaco0"
+    }
+  },
+  {
+    "timestamp": "2026-04-03T22:00:16.065602",
+    "user_id": "guest_g5zhujind",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "5bbd4c90",
+      "url": "https://www.youtube.com/watch?v=mqhxxeeTbu0"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T15:32:13.228580",
+    "user_id": "guest_tl1myynza",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "fe1d7e83",
+      "title": "Learn flask in 4 Months"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T16:03:00.980354",
+    "user_id": "guest_tl1myynza",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "bf21e583",
+      "title": "Learn django in 5 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T16:15:30.906719",
+    "user_id": "guest_tl1myynza",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "7877969d",
+      "title": "Learn django in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T18:34:55.994686",
+    "user_id": "guest_tl1myynza",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "76eee9cf",
+      "title": "Learn django in 5 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T18:55:24.449869",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "user_login",
+    "details": {
+      "email": "khelifiyacine36@gmail.com"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T19:01:44.493155",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "profile_updated",
+    "details": {
+      "fields": [
+        "avatar_url"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-04-04T19:02:07.793448",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "profile_updated",
+    "details": {
+      "fields": [
+        "name",
+        "bio",
+        "handle"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-04-04T19:59:50.521651",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "9e659b67",
+      "title": "Need to learn flask in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T21:16:59.414460",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "e6eb9b71",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T21:21:50.487261",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "138df9c6",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T21:25:20.523888",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "5dffe74d",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T21:35:32.152516",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "d2752498",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T23:14:46.773874",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "63033ccf",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T01:14:24.052957",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "2d6c1593",
+      "title": "Need to learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T01:19:15.812142",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "92e245f4",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T01:29:49.180495",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "c884068e",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T01:36:27.237671",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "40d3ede2",
+      "title": "Leard django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T01:42:39.083947",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "e210dd5e",
+      "title": "Learn data structure and algorithms in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T01:54:10.505805",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "f5593969",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T11:36:17.302067",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "bd7f2093",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:07:46.054473",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "f1c76ab0",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:16:40.921187",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "43582448",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:20:01.622414",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "57615d0f",
+      "title": "Hi i need to learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:27:52.117914",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "d2097b08",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:31:13.839889",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "8b2d1f6d",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:34:34.829873",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "d54792ac",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:43:39.338909",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "8103e6a0",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T12:57:58.276307",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "807c1e31",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T13:07:29.827815",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "24fba096",
+      "title": "I nedd to learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T13:14:05.375837",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "37f19b24",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T13:20:32.381166",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "ccca094d",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T13:34:01.147408",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "f6eea28c",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T13:43:08.725503",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "74ac6892",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T13:51:32.770881",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "4f73cf9c",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T14:07:45.576799",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "6cb13d18",
+      "title": "Learn django"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T14:22:38.174761",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "92ef0cf4",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T14:27:32.999239",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "91299bdf",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T14:46:15.128260",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "af781289",
+      "title": "Learn flask"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T14:53:11.647156",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "43a607e2",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T14:58:27.742543",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "4b2ba8fa",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T15:14:14.927489",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "8e17bf58",
+      "title": "Learn deep learning in python"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T18:56:45.171930",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "e107e6cf",
+      "title": "Learn deep learning"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T19:04:04.233143",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "00e64f54",
+      "title": "Learn deep learning"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T19:26:34.346634",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "9851c937",
+      "title": "Learn deep learning"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T20:45:15.288151",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "6d7bc168",
+      "title": "Machine learning in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T20:55:04.536126",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "73aae018",
+      "title": "Learn machine learning in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T21:06:52.417615",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "9ce57766",
+      "title": "Learn machine learning in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-05T21:16:00.515250",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "1737d16b",
+      "title": "Learn machine learning in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T21:03:58.810853",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "54a1266e",
+      "title": "Learn machine learning in 8 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T21:09:18.225320",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "e8d5c78a",
+      "title": "Learn flask in 3 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T21:23:05.517579",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "bad78415",
+      "title": "Learn flask in 4 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:19:19.790039",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "6d2bfc10",
+      "title": "Learn python in 8 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:12.544447",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "510ccaa4",
+      "title": "Learn python in 8 Weeks"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:15.242793",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=5nzVMVGJ87A"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:16.413196",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=z8uvCejr5Qk"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:17.514249",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=C7kN6glNx4Q"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:19.645742",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=1ypV5ZiIbdA"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:22.154341",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=owI7zxCqNY0"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:23.701139",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=IR_S8BC8KI0"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:25.723374",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=HVXime0nQeI"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:28.884187",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=CqOfi41LfDw"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:31.794782",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=FD4DeN81ODY"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:35.131138",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=afOQeDNzpyE"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:38.077788",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=y0aRZ11OMw0"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:40.197465",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=DlckbaNVqhc"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:47.488157",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=EB9Q-G5gLOM"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:52.551567",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=y4llFGYfaT8"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:37:56.307809",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "video_watched",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://www.youtube.com/watch?v=f-_f92Gy_eo"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:04.048211",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://theses.hal.science/tel-03104061/document"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:05.826547",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://hal.science/hal-04149117/document"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:07.141217",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://inria.hal.science/hal-05038356/document"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:09.436317",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://hal.science/hal-01314906/document"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:11.781260",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://arxiv.org/pdf/1309.3210v32"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:14.592638",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://pastel.hal.science/pastel-00569129/document"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:16.972652",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://hal.science/hal-05358272v1"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:19.936830",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://arxiv.org/pdf/2508.18953v1"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:22.327152",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://arxiv.org/pdf/2306.04338v1"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:24.592480",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://arxiv.org/pdf/2307.05639v2"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:26.826707",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://hal.science/hal-05048031v1"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:29.325498",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://inria.hal.science/hal-01348081/document"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:32.360376",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://arxiv.org/pdf/1403.1178v2"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:34.849109",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://pastel.hal.science/pastel-00666781/document"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:37.607663",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://medium.com/@jainvidip/understanding-decision-trees-1ba0ef5f6bb4"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:38:42.100380",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "article_read",
+    "details": {
+      "goal_id": "9778264a",
+      "url": "https://hal.science/hal-05106560v1"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T22:40:12.592615",
+    "user_id": "8ce65c9c-0770-43a3-8d59-4c349a56ee76",
+    "action": "goal_deleted",
+    "details": {
+      "goal_id": "9778264a",
+      "title": "Learn machine learning in 4 Weeks"
+    }
+  }
+]

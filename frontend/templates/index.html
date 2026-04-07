@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDream - AI-Powered Goal Management Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css?v=2">
+</head>
+<body>
+    <div class="ambient-glow"></div>
+
+    <!-- Navbar -->
+    <nav class="nav-floating">
+        <a href="/index.html" class="nav-brand">BigDream</a>
+        <div class="nav-actions">
+            <a href="/login.html" class="nav-signin">Sign In</a>
+            <a href="/register.html" class="nav-signup">Get Started</a>
+        </div>
+    </nav>
+
+    <div class="page">
+
+        <!-- Hero -->
+        <section class="landing-hero">
+            <div class="landing-container text-center">
+                <div class="mb-3">
+                    <i class="fas fa-brain landing-hero-icon"></i>
+                    <h1 class="landing-main-title">BigDream</h1>
+                    <p class="landing-subtitle">AI-Powered Goal Management Platform</p>
+                    <p class="landing-tagline">Transform your ambitions into actionable plans</p>
+                </div>
+
+                <div class="landing-cta-row">
+                    <a href="/register.html" class="btn btn-accent btn-lg">Get Started Free</a>
+                    <a href="/login.html"    class="btn btn-lg">Sign In</a>
+                </div>
+
+                <!-- Feature cards -->
+                <div class="grid-3 mt-4">
+                    <div class="feature-card">
+                        <i class="fas fa-robot icon-lg icon-cyan mb-2" style="display:block;"></i>
+                        <h3 class="h3-mb">AI Guide</h3>
+                        <p class="text-sub">Intelligent assistant that understands your goals and creates personalized learning paths tailored to your needs.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-tasks icon-lg icon-yellow mb-2" style="display:block;"></i>
+                        <h3 class="h3-mb">Smart Planning</h3>
+                        <p class="text-sub">Automatically generated curriculum with milestones, tasks, and deadlines based on your timeline and objectives.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-graduation-cap icon-lg mb-2" style="display:block; color:#00ff88; filter:drop-shadow(0 0 8px rgba(0,255,136,0.4));"></i>
+                        <h3 class="h3-mb">Curated Content</h3>
+                        <p class="text-sub">Discover relevant videos, articles, and resources automatically matched to your learning goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Terminal Demo -->
+        <section class="landing-section-alt">
+            <div class="landing-container">
+                <div class="terminal-card">
+                    <div class="terminal-titlebar">
+                        <span class="terminal-title">Windows PowerShell</span>
+                        <div class="terminal-winbtns">
+                            <span class="terminal-winbtn">&#x2212;</span>
+                            <span class="terminal-winbtn">&#x25A1;</span>
+                            <span class="terminal-winbtn close">&#x2715;</span>
+                        </div>
+                    </div>
+                    <div class="terminal-body" id="terminal-body"></div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+        (function () {
+            const PROMPT = '<span class="term-prompt">PS C:\\BigDream&gt;</span> ';
+            const SCENES = [
+                {
+                    cmd: 'bigdream --help',
+                    lines: [
+                        { t: 'BigDream — AI Goal Management Platform',       c: 'term-white' },
+                        { t: 'USAGE:  bigdream &lt;command&gt; [goal]',      c: 'term-muted' },
+                        { t: 'COMMANDS:',                                    c: 'term-yellow' },
+                        { t: '  set-goal   →  Define what you want to achieve', c: 'term-out' },
+                        { t: '  get-plan   →  Generate your AI curriculum',  c: 'term-out' },
+                        { t: '  resources  →  Curated videos &amp; articles','c': 'term-out' },
+                        { t: '  track      →  Monitor your daily progress',  c: 'term-out' },
+                        { t: '  chat       →  Talk to your AI coach 24/7',   c: 'term-out' },
+                    ]
+                },
+                {
+                    cmd: 'set-goal "Learn Python in 60 days"',
+                    lines: [
+                        { t: '[✓] Analyzing your goal...',              c: 'term-success' },
+                        { t: '[✓] Generating 8-week curriculum...',     c: 'term-success' },
+                        { t: '[✓] Assigning milestones & deadlines...', c: 'term-success' },
+                        { t: '[→] Plan ready — 24 tasks created',       c: 'term-cyan' },
+                    ]
+                },
+                {
+                    cmd: 'get-plan --week 1',
+                    lines: [
+                        { t: 'WEEK 1 — Python Fundamentals',              c: 'term-yellow' },
+                        { t: '  ├─ Variables, data types & control flow', c: 'term-out' },
+                        { t: '  ├─ Functions, modules & file I/O',        c: 'term-out' },
+                        { t: '  ├─ Watch: 3 curated videos assigned',     c: 'term-out' },
+                        { t: '  └─ Read: 2 articles  •  Due: Day 7',     c: 'term-out' },
+                    ]
+                },
+                {
+                    cmd: 'track --today',
+                    lines: [
+                        { t: '[●] Streak    →  12 days',               c: 'term-cyan' },
+                        { t: '[✓] Done      →  3 tasks today',         c: 'term-success' },
+                        { t: '[▶] Up next   →  "Build a number game"', c: 'term-out' },
+                        { t: '[◈] Progress  →  Week 2 of 8  (24%)',    c: 'term-yellow' },
+                    ]
+                },
+            ];
+
+            const el = document.getElementById('terminal-body');
+            async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+            async function runScene(scene) {
+                // 1. Type the command on a fresh screen
+                let sceneHtml = '';
+                for (let i = 0; i <= scene.cmd.length; i++) {
+                    const typed = scene.cmd.slice(0, i);
+                    el.innerHTML = PROMPT + '<span class="term-cmd">' + typed + '</span><span class="term-cursor"></span>';
+                    if (i < scene.cmd.length) await sleep(34 + Math.random() * 22);
+                }
+                sceneHtml = PROMPT + '<span class="term-cmd">' + scene.cmd + '</span>\n';
+                el.innerHTML = sceneHtml + '<span class="term-cursor"></span>';
+                await sleep(180);
+
+                // 2. Reveal output lines one by one (no clear between them)
+                for (const line of scene.lines) {
+                    sceneHtml += '<span class="term-line ' + line.c + '">' + line.t + '</span>\n';
+                    el.innerHTML = sceneHtml + '<span class="term-cursor"></span>';
+                    await sleep(line.c === 'term-success' ? 230 : 75);
+                }
+
+                // 3. Hold, then move to next scene
+                await sleep(1800);
+            }
+
+            async function run() {
+                let i = 0;
+                await sleep(400);
+                while (true) {
+                    await runScene(SCENES[i % SCENES.length]);
+                    i++;
+                }
+            }
+
+            run();
+        })();
+        </script>
+
+        <!-- CTA -->
+        <section class="landing-section">
+            <div class="landing-container-narrow text-center">
+                <div class="card">
+                    <h2 class="landing-cta-title mb-3">Ready to Start?</h2>
+                    <p class="text-sub mb-4" style="font-size:1rem;">
+                        Join BigDream and transform your goals into reality with AI-powered planning.
+                    </p>
+                    <a href="/register.html" class="btn btn-accent btn-xl">Create Free Account</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="landing-footer">
+            <div class="landing-container text-center">
+                <div class="landing-footer-brand">
+                    <div class="brand-logo">BD</div>
+                    <span class="brand-name">BigDream</span>
+                </div>
+                <p class="landing-footer-version">AI-Powered Goal Management Platform</p>
+                <p class="landing-footer-copy">© 2026 BigDream. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

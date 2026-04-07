@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDream - Dashboard</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/css/style.css?v=16">
+
+    <!-- Prism.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js" defer></script>
+</head>
+<body>
+    <div class="ambient-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-floating">
+        <a href="/index.html" class="nav-brand">BigDream</a>
+
+        <div class="nav-tabs">
+            <a href="/home.html">Dashboard</a>
+            <a href="/goals.html">Goals</a>
+            <a href="/videos.html">Videos</a>
+            <a href="/articles.html">Articles</a>
+        </div>
+
+        <div class="nav-user">
+            <button class="hamburger-btn" id="navHamburger" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="/account.html" class="nav-account-link">Account</a>
+            <div id="userAvatar" style="display:none;"></div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="app-container app-container--home">
+
+        <!-- Stats -->
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-card-icon"><i class="fas fa-bullseye"></i></div>
+                <div class="stat-card-body">
+                    <div class="stat-label">Active Goals</div>
+                    <div class="stat-value" id="stat-active-goals">0</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon"><i class="fas fa-check-circle"></i></div>
+                <div class="stat-card-body">
+                    <div class="stat-label">Completed</div>
+                    <div class="stat-value" id="stat-completed">0</div>
+                </div>
+            </div>
+            <div class="stat-card stat-card--action" id="clearChatCard" style="cursor:pointer;">
+                <div class="stat-card-icon"><i class="fas fa-trash-alt"></i></div>
+                <div class="stat-card-body">
+                    <div class="stat-label">Clear Chat</div>
+                    <div class="stat-value" style="font-size:0.85rem;">Start fresh</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat -->
+        <div class="chat-wrapper">
+            <div class="messages-container" id="chatMessages"></div>
+        </div>
+
+    </main>
+
+    <div class="composer-wrapper">
+        <div class="composer" id="chatInputBox">
+            <div class="composer-input-area">
+                <div class="composer-textarea-wrapper">
+                    <textarea
+                        class="composer-textarea"
+                        id="chatInput"
+                        placeholder="Tell me your Python goal or ask a coding question…"
+                        rows="1"
+                        aria-label="Chat message"
+                    ></textarea>
+                </div>
+            </div>
+            <div class="composer-toolbar">
+                <button id="chatStop" class="stop-btn" style="display:none;" aria-label="Stop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="5" width="14" height="14" rx="2"/></svg>
+                </button>
+                <button id="chatSend" class="send-btn" disabled aria-label="Send message">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js?v=2"></script>
+</body>
+</html>
